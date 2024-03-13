@@ -1,0 +1,231 @@
+*{
+    padding: 0 auto;
+    margin:0 auto;
+}
+html{
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+.header{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(113, 10, 10);
+    width:100%;
+    float:left;
+    text-align: center;
+
+}
+.navbar li{
+    padding:1em 2em 1em 2em;
+   text-align: center;
+    display: inline;
+}
+.navbar li a:hover{
+    color:goldenrod;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.img img{
+    height:80px;
+    position: relative;
+    bottom: 80px;
+    left:10px;
+}
+.icons li{
+    display: inline;
+    float: right;
+    padding:0.7em 0.5em 0.7em 1em;
+    position: relative;
+    bottom: 82px;
+    font-size: 30px;
+    color:white;
+}
+.icons li a i:hover{
+    color:goldenrod;
+}
+.hero img{
+        width:1246px;
+        height: 467px;
+
+}
+.head{
+    width:100%;
+    text-align: center;
+    float: left;
+    padding-top: 40px;
+}
+.head hr{
+    width:15%;
+    border:2px solid red;
+}
+.about{
+    width:100%;
+    float:left;
+    display: flex;
+    margin-left: 120px;
+
+}
+.imag{
+    width:50%;
+    padding-top: 160px;
+
+}
+.imag img{
+   width:290px;
+   height:390px;
+}
+.content{
+    height:390px;
+    width:50%;
+    padding-top: 10px;
+    position: relative;
+    right:333px;
+    top:80px;
+    background-color: rgb(250, 150, 150);
+}
+.mer{
+    padding-top: 50px;
+    width:100%;
+    display: flex;
+    float:left;
+  }
+.card {
+    width:33.3%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  .card:hover{
+    box-shadow: 10px 10px 5px rgb(236, 172, 172);
+    opacity: 0.5;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  .card img{
+   position: relative;
+   height:250px;
+   top:5px;
+   padding-right:22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  .team{
+    width:100%;
+    float:left;
+    display: flex;
+    text-align: center;
+    padding-top: 120px;
+  }
+  .in img{
+    width:398px;
+    height: 244px;
+    position: relative;
+    top:-3px;
+  }
+  .in{
+    width:33.3%;
+
+  }
+ .team h3:hover{
+  color:goldenrod;
+ }
+  .photo{
+    width:100%;
+    float:left;
+    display: flex;
+
+  }
+  .ph{
+    width:33.3%;
+    padding-top: 70px;
+  }
+  .ph_01 img{
+    width: 414px;
+    height: 242px;
+    padding-top: 150px;
+  }
+  .ph img{
+   
+    width:414px;
+    height: 242px;
+  }
+  .music{
+    text-align: center;
+    position: relative;
+    bottom: 80px;
+  }
+  .music audio{
+    padding:1em 2em 1em 2em;
+  }
+  .music button{
+    position: relative;
+    bottom:908px;
+    left:560px;
+    background-color: red;
+  }
+  .music button:hover{
+    background-color: black;
+    color:white;
+
+  }
+  .video{
+    padding-top: 60px;
+  }
+  .stay-connected{
+    width:100%;
+    float:left;
+    position: relative;
+  }
+  .stay-connected img{
+    top:40px;
+    width:380px;
+    height:500px;
+  }
+  .get{
+    text-align:center;
+    position: relative;
+    bottom: 400px;
+    left:30px;
+  }
+  .get h3{
+    padding-top: 20px;
+    font-weight: 800;
+    color: red;
+  }
+  .play{
+    position: relative;
+    top:100px;
+  }
+ .app{
+  position: relative;
+  top:100px;
+ }
+
+
+  
+
+
